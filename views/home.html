@@ -6,13 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="../css/main.css">
   <title>Swapi App</title>
 </head>
-<body>
-  <div id="item-container" class="item-container">
+<!-- <body> -->
 
+ <body class="body-home">
+  <div class="row center-align">
+    <img class="swlogohome" src="../assets/images/Star_Wars_logo.png" alt="">
   </div>
+  <div class="row">
+    <h1 class="center-align yellow-text stroke">Lista de Películas</h1>
+  </div>
+
+  <!-- Contenedor -->
+  <div class="row" id="container-movies"></div>
+
+  <!-- Estructura de modal -->
+  <div id="modal1" class="modal row black">
+          <div class="modal-content">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat right">
+              <i class="material-icons">close</i>
+            </a>
+            <div class="center-align">
+              <h3 class="center-align stroke" id="character-name"></h3>
+              <img id="modale-image" class="responsive-img" style="width: 30%">
+            </div>
+            <div class="col offset-s2 s3">
+              <p class="datos">Birth year: <span id="birth-year"></span></p>
+              <p class="datos">Height: <span id="height"></span>cm</p>
+            </div>
+            <div class="col s3">
+              <p class="datos">Mass: <span id="mass"></span>kg</p>
+              <p class="datos">Skin color: <span id="skin-color"></span></p>
+            </div>
+            <div class="col s3">
+              <p class="datos">Hair color: <span id="hair-color"></span></p>
+              <p class="datos">Eye color: <span id="eye-color"></span></p>
+            </div>
+            <!-- <div class="col s3">
+              <p class="datos">Homeworld: <span id="homeworld"></span></p>
+              <p class="datos">Specie: <span id="specie"></span></p>
+            </div>
+            <div class="col s3">
+              <p class="datos">Starships: <span id="starships"></span></p>
+              <p class="datos">Vehicles: <span id="vehicles"></span></p>
+            </div> -->
+          </div>
+        </div>
+
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
