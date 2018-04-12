@@ -8,4 +8,4 @@ Página con temática de StarWars en la que usé la implementación de la API de
 
 ![Imagen del sitio](https://raw.githubusercontent.com/Agalleth/Swapi/master/assets/images/swapi.jpg)
 
-### Desarrollado para Laboratoria.
+## Desarrollado para [Laboratoria](http://www.laboratoria.la/)
