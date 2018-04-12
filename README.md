@@ -6,6 +6,6 @@ Página con temática de StarWars en la que usé la implementación de la API de
 * Modal por cada imagen con información del personaje
 * Descripción dada por la API
 
-![Imagen del sitio](assets/images/swapi.jpg)
+![Imagen del sitio](https://raw.githubusercontent.com/Agalleth/Swapi/master/assets/images/swapi.jpg)
 
 ### Desarrollado para Laboratoria.
